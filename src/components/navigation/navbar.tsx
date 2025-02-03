@@ -51,7 +51,7 @@ export default function Navbar() {
               </Select>
             </li>
           </ul>
-            <Link href='' className='bg-[#3661eb] text-white py-4 px-8 rounded-xl'>
+            <Link href='/login' className='bg-[#3661eb] text-white py-4 px-8 rounded-xl'>
               Sign Up
             </Link>
         </div>
