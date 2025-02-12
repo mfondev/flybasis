@@ -1,15 +1,12 @@
-"use client"
 import React from 'react'
 import Navbar from '@/components/navigation/navbar'
 
 
 export default function MainHeader() {
-
   
   return (
     <main className='bg-[#dde9f7]'>
       <Navbar />
-      
       <section className='container flex items-center justify-between mx-auto px-[40px] py-8'>
         <div>
           <h2 className='text-4xl max-w-[600px] font-bold'>
