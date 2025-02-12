@@ -10,9 +10,8 @@ import {
 export default function Faq() {
   return (
     <>
-    <div>
+    <div className='container mx-auto'>
      <h3>Frequently Asked Questions</h3>
-    </div>
       <Accordion type='single' collapsible>
         <AccordionItem value='item-1'>
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
@@ -21,6 +20,8 @@ export default function Faq() {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
+    </div>
+
     </>
   )
 }

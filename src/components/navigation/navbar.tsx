@@ -24,6 +24,7 @@ export default function Navbar() {
   const [user] = useAuthState(auth);
   const router = useRouter();
   console.log(user);
+  
 const userSession = sessionStorage.getItem('user')
   if (!user && !userSession) {
     router.push("/sign-up");
