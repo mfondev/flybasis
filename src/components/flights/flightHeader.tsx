@@ -1,7 +1,8 @@
 import React from 'react'
-
 import SeekFlights from './seekFlights'
-
+import { TbPlaneDeparture } from "react-icons/tb";
+import { TbPlaneArrival } from "react-icons/tb";
+import { IoCalendarNumberOutline } from "react-icons/io5";
 
 export default function FlightHeader() {
   return (
@@ -11,6 +12,7 @@ export default function FlightHeader() {
         <main className='flex items-center justify-betweens border border-[#ecedef] rounded-[5px] '>
           <div className='border-r-[1px] border-[#ecedef] pr-20 pl-2
           '>
+            <TbPlaneDeparture className='text-black'/>
             <p className='text-[#a6abb8]'>From</p>
             <h5>
               Jakarta
@@ -19,6 +21,7 @@ export default function FlightHeader() {
           </div>
           <div className='border-r-[1px] border-[#ecedef] pr-20 pl-2
           '>
+           <TbPlaneArrival className='text-black'/>
             <p className='text-[#a6abb8]'>To</p>
             <h5>
               Singapore
@@ -27,11 +30,13 @@ export default function FlightHeader() {
           </div>
           <div className='border-r-[1px] border-[#ecedef] pr-20 pl-2
           '>
+            <IoCalendarNumberOutline className='text-black' />
             <p className='text-[#a6abb8]'>Departure Date</p>
             <h5>31/4/2024</h5>
           </div>
           <div className='border-r-[1px] border-[#ecedef] pr-20 pl-2
           '>
+            <IoCalendarNumberOutline className='text-black'/>
             <p className='text-[#a6abb8]'>Return Date</p>
             <h5>3/17/2024</h5>
           </div>
