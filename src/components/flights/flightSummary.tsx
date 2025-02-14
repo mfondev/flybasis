@@ -5,8 +5,8 @@ import Cta from "./cta";
 export default function FlightSummary() {
   return (
     <>
-      <section className="bg-[#081029] relative">
-        <main className="container mx-auto py-10 pb-[400px]">
+      <section className="bg-[#081029] relative w-full">
+        <main className=" py-10 pb-[400px]">
           <article className="flex items-center justify-between gap-">
             <div className=" mt-8 bg-white shadow-2xl rounded-[20px] border-white">
               <div className="relative mb-4">

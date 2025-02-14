@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useGetFlights } from "../../../utils/hooks/getFlights";
+import { FaPlane } from "react-icons/fa";
 
 export default function AvailableFlights() {
   const { data, isLoading, isError, error } = useGetFlights();
@@ -34,6 +35,8 @@ export default function AvailableFlights() {
           <p>
             Jakarta <span className="font-bold">(CGK)</span>
           </p>
+          <FaPlane className="text-[#3661eb]" />
+
           <p>
             New York <span className="font-bold">(JFK)</span>
           </p>

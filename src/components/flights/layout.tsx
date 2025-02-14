@@ -29,24 +29,24 @@ export default function FlightLayout() {
       <main className="bg-[#dee4eb]">
 
 
-      <section className="container mx-auto py-12 ">
-        <article>
+      <section className=" py-12 ">
+        <article className="container mx-auto">
         <div>
-          <h3 className="text-center text-[32px]">
+          <h3 className="text-center text-[32px] max-w-[400px]">
             <span className="text-[#4360ba] text-[24px]">So easy</span>, Grandma
             could do it{" "}
             <span className="text-[#4360ba] text-[24px]">
               Save thousands. In 3 easy steps
             </span>
           </h3>
-          <p className="text-[#a6abb8]">Discounted, "insider" fares. At your fingertips.</p>
+          <p className="text-[#a6abb8] text-center">Discounted, "insider" fares. At your fingertips.</p>
         </div>
         <main className="py-4 flex flex-row items-center justify-between">
           <SearchFlights />
           <Contact />
           <FlightsLink />
         </main>
-        <button className='bg-[#3661eb] text-white py-2 px-4 rounded-[5px] ml-10'>Search Now</button>
+        <button className='bg-[#3661eb] text-white py-2 px-4 rounded-[5px] ml-10 text-center'>Search Now</button>
         </article>
         <FlightSummary />
       </section>
