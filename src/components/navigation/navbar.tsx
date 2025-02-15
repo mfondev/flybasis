@@ -26,9 +26,9 @@ export default function Navbar() {
   console.log(user);
   
 const userSession = sessionStorage.getItem('user')
-  if (!user && !userSession) {
-    router.push("/sign-up");
-  }
+  // if (!user && !userSession) {
+  //   router.push("/sign-up");
+  // }
   return (
     <nav className="container mx-auto py-[18px] flex justify-between items-center">
       <div>
