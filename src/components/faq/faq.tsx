@@ -10,8 +10,8 @@ import {
 export default function Faq() {
   return (
     <>
-    <div className='container mx-auto'>
-     <h3>Frequently Asked Questions</h3>
+    <div className='container mx-auto mt-[350px]'>
+     <h3 className="text-center text-[32px] font-bold">Frequently Asked Questions</h3>
       <Accordion type='single' collapsible>
         <AccordionItem value='item-1'>
           <AccordionTrigger>Is it accessible?</AccordionTrigger>

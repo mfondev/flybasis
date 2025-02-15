@@ -90,7 +90,7 @@ export default function ContactForm() {
               <FormControl>
                 <Input 
                 placeholder="xxx xxx xxx"
-                
+                className="bg-white"
                 type="text"
                 {...field} />
               </FormControl>
