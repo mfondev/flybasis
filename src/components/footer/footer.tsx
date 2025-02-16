@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer className='bg-[#081029] text-white relative'>
-      <div className=' absolute top-[-140px] left-1/2 transform -translate-x-1/2 w-full container mx-auto flex items-center justify-between bg-[#3761eb] p-14 rounded-[20px]'>
+      {/* <div className=' absolute top-[-140px] left-1/2 transform -translate-x-1/2 w-full container mx-auto flex items-center justify-between bg-[#3761eb] p-14 rounded-[20px] '>
         <div>
           <h3 className='text-[42px] max-w-[600px] text-white leading-[46px] '>
             Booking discounted fares arilines cant show online has never been{' '}
@@ -15,9 +15,9 @@ export default function Footer() {
           </p>
         </div>
         <button className='bg-white text-[#3661eb]  py-2 px-4 rounded-[5px]'>Search Now</button>
-      </div>
-      <main className='mt-[300px] flex items-center justify-between container mx-auto bg-[#192452] p-8 rounded-[20px]'>
-        <article className='space-y-2'>
+      </div> */}
+      <main className=' flex items-center justify-between container mx-auto bg-[#192452] p-8 rounded-[20px] mt-[200px]'>
+        <article className='space-y-2 '>
           <h2 className='text-[28px] '>Basis</h2>
           <p className='text-[20px] font-bold'>Skip the line.Get our top daily deal.</p>
           <div className='flex items-center'>

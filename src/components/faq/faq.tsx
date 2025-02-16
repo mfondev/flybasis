@@ -10,7 +10,7 @@ import { FAQs } from "./faqs";
 export default function Faq() {
   return (
     <>
-      <div className="container mx-auto mt-[350px]">
+      <div className="container mx-auto">
         <h3 className="text-center text-[32px] font-bold">
           Frequently Asked Questions
         </h3>
@@ -23,11 +23,11 @@ export default function Faq() {
           </Accordion>
         ))}
         {FAQs.length < 6 ? (
-          <button className="flex items-center justify-between mt-4 bg-[#3661eb] text-white py-2 px-4 rounded-[5px] ml-10 text-center mx-auto">
+          <button className="flex items-center justify-between mt-8 bg-[#3661eb] text-white py-2 px-4 rounded-[5px] text-center mx-auto">
             See More
           </button>
         ) : (
-          <button className="bg-[#3661eb] text-white py-2 px-4 rounded-[5px] ml-10 text-center mx-auto">
+          <button className="bg-[#3661eb] text-white py-2 px-4 rounded-[5px] text-center mx-auto">
             See Less
           </button>
         )}
