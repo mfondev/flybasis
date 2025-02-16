@@ -2,21 +2,21 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className='bg-[#081029] text-white'>
-      <div className='container mx-auto flex items-center justify-between bg-[#3661eb] p-10 rounded-[20px]'>
+    <footer className='bg-[#081029] text-white relative'>
+      <div className=' absolute top-[-140px] left-1/2 transform -translate-x-1/2 w-full container mx-auto flex items-center justify-between bg-[#3761eb] p-14 rounded-[20px]'>
         <div>
-          <h3 className='text-[42px] max-w-[600px] text-white'>
+          <h3 className='text-[42px] max-w-[600px] text-white leading-[46px] '>
             Booking discounted fares arilines cant show online has never been{' '}
             <i>this</i> easy.
           </h3>
-          <p className='text-[15px] text-[#d5d9e1]'>
+          <p className='text-[15px] text-[#d5d9e1] mt-4'>
             Find your perfect flight. without the hassle See what you can save
             today.
           </p>
         </div>
         <button className='bg-white text-[#3661eb]  py-2 px-4 rounded-[5px]'>Search Now</button>
       </div>
-      <main className='flex items-center justify-between container mx-auto bg-[#192452] p-8 rounded-[20px]'>
+      <main className='mt-[300px] flex items-center justify-between container mx-auto bg-[#192452] p-8 rounded-[20px]'>
         <article className='space-y-2'>
           <h2 className='text-[28px] '>Basis</h2>
           <p className='text-[20px] font-bold'>Skip the line.Get our top daily deal.</p>
@@ -55,9 +55,9 @@ export default function Footer() {
           </ul>
         </div>
       </main>
-      <div>
+      <div className='flex items-center justify-between container mx-auto mt-9'>
        <p>&copy; Flybasis. All right reserved</p>
-       <div></div>
+       <div>logos</div>
       </div>
     </footer>
   )

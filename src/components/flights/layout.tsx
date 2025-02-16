@@ -13,8 +13,8 @@ export default function FlightLayout() {
       <FlightHeader />
       <AvailableFlights />
       <div className="bg-[#3661eb] w-full">
-        <div className=" max-w-[600px] pl-10 py-8 text-white text-left">
-          <h3 className="text-[32px]">
+        <div className=" max-w-[800px] pl-4 font-bold py-16 text-white text-left">
+          <h3 className="text-[48px]">
             Airlines save a number of <span>$7,084</span> discounted seats for
             every flight <span></span> called "consolidator" fares.{" "}
           </h3>
